@@ -26,9 +26,9 @@ export default function Splash(){
       {/* tagline div */}
       <div className="p-3 bg-gray-300 flex items-center rounded shadow-2xl">
         {/* tagline text */}
-        <h3 className="text-xl text-center text-gray-800">I am a full stack developer, writer, and artist.
+        <h3 className="text-xl text-center text-gray-800 font-mono">I am a full stack developer, writer, and artist.
         <br></br>
-        I love information architecture, web development ecosystems, and open source development.
+        I love information architecture, paradigms and framework ecosystems, and open-source development.
         <br/>
         I am seeking an environment of learning with an opportunity focussed on growth. 
         </h3>
