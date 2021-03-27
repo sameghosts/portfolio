@@ -35,7 +35,11 @@ export default function Splash(){
         {/* other stuff ? */}
       </div>
       {/* buttons div */}
-
+      <div className="p-3 w-full flex justify-evenly items-stretch">
+      <a className="inline-block p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" href="#">Resume</a>
+      <a className="inline-block p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" href="#">LinkedIn</a>
+      <a className="inline-block p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" href="#">GitHub</a>
+      </div>
     </div>
   )
 }
