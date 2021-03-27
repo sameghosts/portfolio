@@ -8,22 +8,17 @@ import Head from 'next/head'
 // Footer - same lvl or 1 up
 
 import Nav from '../components/nav'
+import Splash from '../components/splash'
 
 export default function Home() {
   return (
-    <div >
+    <div className="h-full bg-gray-200" >
       <Head>
         <title>Sean Feiner Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main>
-        <h1 className="NameTitle">Sean Feiner</h1>
-        <h3 className="TagLine">
-          Insert Quick Bio Here
-        </h3>
-      
-      </main>
+      <Splash />
 
     </div>
   )
