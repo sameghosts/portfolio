@@ -15,7 +15,7 @@ export default function Splash(){
       {/* Name Splash Div */}
       <div className="flex justify-center items-center">
         {/* img logo eventually */}
-        <img src="https://images.unsplash.com/photo-1568584477802-91bcf4a469da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" className="w-1/4 rounded mr-6"/>
+        <img src="https://images.unsplash.com/photo-1568584477802-91bcf4a469da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" className="w-1/6 h-36 rounded-full mr-6 shadow-2xl"/>
         {/* first name */}
         <h1 className="p-2  text-green-400 text-9xl"> Sean </h1>
       </div>

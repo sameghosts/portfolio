@@ -20,7 +20,7 @@ export default function Projects(){
       {/* Project card div */}
       <div className="bg-blue-500 p-2 flex items-center rounded shadow-lg hover:shadow-2xl">
         {/* text container */}
-        <div className="bg-blue-300 text-center flex flex-col justify-around mr-3">
+        <div className="bg-blue-300 text-center flex flex-col justify-around m-3 rounded-xl shadow-inner">
           {/* proj title */}
           <p className="p-4 text-blue-800 text-4xl font-extrabold"> ChiknTindr</p>
           {/* project description */}
@@ -35,9 +35,9 @@ export default function Projects(){
 
           {/* Img Icons */}
           <div className="flex justify-around items-center p-4">
-            <img src="/logos/mongodb-ar21.svg" className="inline-block w-36 mr-4" />
-            <img src="/logos/express.svg" className="inline-block w-24 mr-4" />
-            <img src="/logos/react.svg" className="inline-block w-16 mr-4" />
+            <img src="/logos/mongodb-ar21.svg" className="inline-block w-36 mr-4 " />
+            <img src="/logos/express.svg" className="inline-block p-2 w-1/6 mr-4 " />
+            <img src="/logos/react.svg" className="inline-block w-16 mr-4 " />
             <img src="/logos/nodejs-icon.svg" className="inline-block w-16 mr-4" />
           </div>
         </div>
