@@ -15,7 +15,7 @@ import Contact from '../components/contact'
 
 export default function Home() {
   return (
-    <div className="h-full bg-gray-200" >
+    <div className="w-screen flex flex-col bg-gray-200" >
       <Head>
         <title>Sean Feiner Portfolio</title>
         <link rel="icon" href="/favicon.ico" />

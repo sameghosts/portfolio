@@ -14,13 +14,13 @@
 
 export default function Projects(){
   return (
-    <div id="projects" className="flex flex-col text-center bg-purple-300 p-2">
+    <div id="projects" className=" w-screen flex flex-col text-center bg-purple-300 p-2">
       {/* Project title */}
       <h1 className="p-2 my-5 text-7xl text-blue-800 font-bold"> Projects </h1>
       {/* Project card div */}
-      <div className="bg-blue-500 p-2 flex items-center rounded shadow-lg hover:shadow-2xl">
+      <div className="bg-blue-500 p-2 flex flex-col sm:flex-row items-center rounded shadow-lg hover:shadow-2xl">
         {/* text container */}
-        <div className="bg-blue-300 text-center flex flex-col justify-around m-3 rounded-xl shadow-inner">
+        <div className="bg-blue-300 text-center justify-around m-3 rounded-xl shadow-inner">
           {/* proj title */}
           <p className="p-4 text-blue-800 text-4xl font-extrabold"> ChiknTindr</p>
           {/* project description */}
@@ -43,13 +43,9 @@ export default function Projects(){
         </div>
         {/* Img container */}
         <div className="p-1 flex justify-around items-center m-3">
-          <span className="p-1 h-10 w-10 rounded-full text-purple-600 hover:text-green-300 bg-purple-300 hover:bg-green-600 shadow-md hover:shadow-2xl text-2xl font-extrabold transition ease-in duration-150 mr-6">
-            &lt;
-          </span>
-          <img src="/projpics/CT1.png" alt="project image" className="w-5/6" />
-          <span className="p-1 h-10 w-10 rounded-full text-purple-600 hover:text-green-300 bg-purple-300 hover:bg-green-600 shadow-md hover:shadow-2xl text-2xl font-extrabold transition ease-in duration-150 ml-6">
-            &gt;
-          </span>
+          
+          <img src="/projpics/CT1.png" alt="project image" className="" />
+          
 
         </div>
 
