@@ -34,7 +34,7 @@ export default function Projects(){
           </a>
 
           {/* Img Icons */}
-          <div className="flex justify-around items-center p-4">
+          <div className="flex flex-wrap justify-around items-center p-4">
             <img src="/logos/mongodb-ar21.svg" className="inline-block w-36 mr-4 " />
             <img src="/logos/express.svg" className="inline-block p-2 w-1/6 mr-4 " />
             <img src="/logos/react.svg" className="inline-block w-16 mr-4 " />
