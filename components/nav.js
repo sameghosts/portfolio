@@ -19,8 +19,8 @@
         <div className="flex items-center justify-between">
           {/* Links: Projects / About / Contact */}
           <a className="inline-block px-8 text-purple-300 hover:text-indigo-100 text-lg" href="#projects">Projects</a>
-          <a className="inline-block px-8 text-purple-300 hover:text-indigo-100 text-lg" href="#">About</a>
-          <a className="inline-block px-8 text-purple-300 hover:text-indigo-100 text-lg" href="#">Contact</a>
+          <a className="inline-block px-8 text-purple-300 hover:text-indigo-100 text-lg" href="About">About</a>
+          <a className="inline-block px-8 text-purple-300 hover:text-indigo-100 text-lg" href="Contact">Contact</a>
         </div>
         {/* More button */}
         <div className="flex items-center">

@@ -10,6 +10,7 @@ import Head from 'next/head'
 import Nav from '../components/nav'
 import Splash from '../components/splash'
 import Projects from '../components/projects'
+import About from '../components/about'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Nav />
       <Splash />
       <Projects />
+      <About />
 
     </div>
   )
