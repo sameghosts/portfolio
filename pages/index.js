@@ -11,6 +11,7 @@ import Nav from '../components/nav'
 import Splash from '../components/splash'
 import Projects from '../components/projects'
 import About from '../components/about'
+import Contact from '../components/contact'
 
 export default function Home() {
   return (
