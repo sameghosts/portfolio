@@ -13,15 +13,16 @@ export default function Splash(){
     // Splash container
     <div id="Splash" className="p-2 flex flex-col bg-gray-400 items-center w-auto">
       {/* Name Splash Div */}
-      <div className="flex justify-center items-center ">
+      <div className="flex flex-col sm:flex-row justify-center items-center ">
         {/* img logo eventually */}
-        <img src="https://images.unsplash.com/photo-1568584477802-91bcf4a469da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" className="invisible sm:visible w-1/6 h-36 rounded-full mr-6 shadow-2xl"/>
+        <img src="https://images.unsplash.com/photo-1568584477802-91bcf4a469da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" className="w-2/3 sm:w-1/6 sm:h-36 rounded-full sm:mr-6 shadow-2xl"/>
         {/* first name */}
-        <h1 className="p-2  text-green-400 sm:text-9xl text-3xl"> Sean </h1>
+        <h1 className="p-2  text-green-400 sm:text-9xl text-6xl"> Sean </h1>
       </div>
         {/* Last Name */}
-      <div>
-        <h1 className="p-2 inline-block text-green-400 sm:text-9xl text-3xl"> Michael Feiner </h1>
+      <div className="flex flex-col text-center sm:flex-row">
+        <h1 className="p-2 text-green-400 sm:text-9xl text-6xl"> Michael </h1>
+        <h1 className="p-2 text-green-400 sm:text-9xl text-6xl"> Feiner </h1>
       </div>
       {/* tagline div */}
       <div className="p-3 bg-gray-300 flex items-center rounded shadow-2xl">
