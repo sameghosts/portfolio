@@ -24,6 +24,8 @@ export default function Home() {
       <Splash />
       <Projects />
       <About />
+      <Contact />
+    
 
     </div>
   )
