@@ -14,7 +14,7 @@
 export default function About(){
   return(
 
-  <div id="About" className="p-2 flex flex-col bg-green-300 items-center">
+  <div id="About" className="p-2 flex flex-col bg-green-200 items-center">
     {/* Section Title */}
     <h1 className="text-purple-800 font text-7xl font-extrabold p-2">About</h1>
     {/* Biography */}
