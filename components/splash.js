@@ -14,8 +14,8 @@ export default function Splash(){
     <div id="Splash" className="p-2 flex flex-col bg-gray-400 items-center w-auto">
       {/* Name Splash Div */}
       <div className="flex flex-col sm:flex-row justify-center items-center ">
-        {/* img logo eventually */}
-        <img src="https://images.unsplash.com/photo-1568584477802-91bcf4a469da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" className="w-2/3 sm:w-1/6 sm:h-36 rounded-full sm:mr-6 shadow-2xl"/>
+        {/* img logo eventually - ear into ear morph gif 
+        <img src="https://images.unsplash.com/photo-1568584477802-91bcf4a469da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" className="w-2/3 sm:w-1/6 sm:h-36 rounded-full sm:mr-6 shadow-2xl"/> */}
         {/* first name */}
         <h1 className="p-2  text-green-400 sm:text-9xl text-6xl"> Sean </h1>
       </div>
