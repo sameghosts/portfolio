@@ -1,0 +1,17 @@
+{
+  projectTitle: ,
+  projectDescription:,
+  targetGithub:,
+  targetDemo:,
+  techLogos: [],
+  img:
+}
+
+in map 
+title={project.proj_title}
+descrip={project.proj_description}
+targGithub={project.target_github}
+targDemo={project.target_demo}
+techLogos={project.tech_logos}
+img={project.img}
+imgAlt={project.imgAlt}

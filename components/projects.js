@@ -1,7 +1,5 @@
-//TODO: Stub out component 
-//TODO: Build out component
-//TODO: Style Component
-//TODO: Responsive / mobile design
+// TODO: Stub and transfer out project container component
+//TODO: import and map the project component into projects
 
 // Projects
 // Create project card initially inside for p3
