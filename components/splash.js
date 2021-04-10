@@ -17,12 +17,14 @@ export default function Splash(){
         {/* img logo eventually - ear into ear morph gif 
         <img src="https://images.unsplash.com/photo-1568584477802-91bcf4a469da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" className="w-2/3 sm:w-1/6 sm:h-36 rounded-full sm:mr-6 shadow-2xl"/> */}
         {/* first name */}
-        <h1 className="p-2  text-green-400 sm:text-9xl text-6xl"> Sean </h1>
+        <h1 className="p-2 sm:text-9xl text-6xl font-black"> 👻</h1>
+        <h1 className="p-2  text-green-400 sm:text-9xl text-6xl font-black"> Sean </h1>
       </div>
         {/* Last Name */}
       <div className="flex flex-col text-center sm:flex-row">
-        <h1 className="p-2 text-green-400 sm:text-9xl text-6xl"> Michael </h1>
-        <h1 className="p-2 text-green-400 sm:text-9xl text-6xl"> Feiner </h1>
+        <h1 className="p-2 text-green-400 sm:text-9xl text-6xl font-black sm:mr-2"> Michael </h1>
+        <h1 className="p-2 text-green-400 sm:text-9xl text-6xl font-black sm:ml-2"> Feiner  </h1>
+        <h1 className="p-2 sm:text-9xl text-6xl font-black sm:ml-2">  🌽 </h1>
       </div>
       {/* tagline div */}
       <div className="p-3 bg-gray-300 flex items-center rounded shadow-2xl">
