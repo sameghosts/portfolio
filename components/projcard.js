@@ -3,6 +3,8 @@
 //TODO: Check with different render path
 
 export default function ProjectCard(props){
+  let allTechImg = props.techLogos.map(image => (<img src={image} className="inline-block p-2 w-16 mr-4 " />
+  ))
   return(
     <div className="bg-blue-500 p-2 flex flex-col sm:flex-row items-center rounded shadow-lg hover:shadow-2xl">
     {/* text container */}
@@ -10,24 +12,22 @@ export default function ProjectCard(props){
       {/* proj title */}
       <p className="p-4 text-blue-800 text-4xl font-extrabold"> {props.title}</p>
       {/* project description */}
-      <p className="p-2 font-semibold text-blue-600"> Restaurant match game for friends built using the MERN Stack and Yelp API. Collaborative team design and implementation. I was the back-end lead who designed the information architecture and ensured our database and server met the needs and logic for the client. </p>
+      <p className="p-2 font-semibold text-blue-600"> {props.descrip}</p>
       {/* project links */}
       <div className="flex justify-between py-4">
-      <a href="https://github.com/sameghosts/ChiknTindr-Server" target="_blank" className="rounded-full m-auto mt-2 mb-3 py-2 px-6 bg-red-600 hover:bg-red-100 text-red-300 hover:text-red-600 sm:text-2xl font-extrabold shadow-xl transition ease-in duration-150">
+      <a href={props.targGithub} target="_blank" className="rounded-full m-auto mt-2 mb-3 py-2 px-6 bg-red-600 hover:bg-red-100 text-red-300 hover:text-red-600 sm:text-2xl font-extrabold shadow-xl transition ease-in duration-150">
         GitHub
       </a>
-      <a href="https://modest-visvesvaraya-3148b8.netlify.app/" target="_blank" className="rounded-full m-auto mt-2 mb-3 py-2 px-6 bg-red-600 hover:bg-red-100 text-red-300 hover:text-red-600 sm:text-2xl font-extrabold shadow-xl transition ease-in duration-150">
+      <a href={props.targDemo} target="_blank" className="rounded-full m-auto mt-2 mb-3 py-2 px-6 bg-red-600 hover:bg-red-100 text-red-300 hover:text-red-600 sm:text-2xl font-extrabold shadow-xl transition ease-in duration-150">
         Live Demo
       </a>
       </div>
 
       {/* Img Icons */}
       <div className="flex flex-wrap justify-around items-center p-4">
-        <img src="/logos/mongodb-ar21.svg" className="inline-block w-36 mr-4 " />
-        <img src="/logos/express.svg" className="inline-block p-2 w-16 mr-4 " />
-        <img src="/logos/react.svg" className="inline-block w-16 mr-4 " />
-        <img src="/logos/nodejs-icon.svg" className="inline-block w-16 mr-4" />
+        {allTechImg}
       </div>
+      
     </div>
     {/* Img container */}
     <div className="p-1 flex justify-around items-center m-3">
