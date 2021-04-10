@@ -11,11 +11,11 @@ import ProjectCard from '../components/projcard';
 // Mobile responsive
 // Img gifs or carousels
 
-export default function Projects(){
+export default function Projekts(){
   let projects = projInfo.map(project =>(
     <ProjectCard
       key={project.id}
-      title={proj_title}
+      title={project.proj_title}
       descrip={project.proj_description}
       targGithub={project.target_github}
       targDemo={project.target_demo}

@@ -3,10 +3,10 @@
 //TODO: Check with different render path
 
 export default function ProjectCard(props){
-  let allTechImg = props.techLogos.map(image => (<img src={image} className="inline-block p-2 w-16 mr-4 " />
+  let allTechImg = props.techLogos.map((image, index) => (<img key={index} src={image} className="inline-block p-2 w-16 mr-4 " />
   ))
   return(
-    <div className="bg-blue-500 p-2 flex flex-col sm:flex-row items-center rounded shadow-lg hover:shadow-2xl">
+    <div className="bg-blue-500 p-4 m-0.5 flex flex-col sm:flex-row items-center rounded shadow-lg hover:shadow-2xl">
     {/* text container */}
     <div className="bg-blue-300 text-center justify-around m-3 rounded-xl shadow-inner">
       {/* proj title */}

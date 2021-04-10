@@ -1,4 +1,4 @@
-export default projInfo = [
+const projInfo = [
   {
     id: 0,
     proj_title: 'ChiknTindr',
@@ -9,5 +9,17 @@ export default projInfo = [
     img:'/projpics/CT1.png',
     imgAlt: 'ChiknTindr Demo Image'
   },
+  {
+    id: 1,
+    proj_title: 'Flinder',
+    proj_description: 'test test test',
+    target_github: 'https://github.com/sameghosts/ChiknTindr-Server',
+    target_demo: 'https://modest-visvesvaraya-3148b8.netlify.app/',
+    tech_logos: ['logos/mongodb-ar21.svg', '/logos/express.svg', '/logos/react.svg', '/logos/nodejs-icon.svg'],
+    img:'/projpics/CT1.png',
+    imgAlt: 'ChiknTindr Demo Image'
+  },
 
 ]
+
+module.exports = projInfo
