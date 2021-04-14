@@ -38,7 +38,7 @@ const projInfo = [
     target_github: 'https://github.com/sameghosts/ProjektPinballDev/',
     target_demo: 'https://sameghosts.github.io/ProjektPinballDev/',
     tech_logos: ['logos/html-5.svg', '/logos/css-3.svg', '/logos/javascript.svg'],
-    img:'/projpics/projectpinball.gif',
+    img:'/projpics/projpinball.gif',
     imgAlt: 'Project Pinball Dev project image'
   }
 
