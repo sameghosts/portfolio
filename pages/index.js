@@ -10,6 +10,7 @@ import Head from 'next/head'
 import Nav from '../components/nav'
 import Splash from '../components/splash'
 import Projects from '../components/projects'
+import Projekts from '../components/projekts'
 import About from '../components/about'
 import Contact from '../components/contact'
 
@@ -22,7 +23,9 @@ export default function Home() {
       </Head>
       <Nav />
       <Splash />
-      <Projects />
+      {/* <Projects /> */}
+      <Projekts />
+
       <About />
       <Contact />
     
