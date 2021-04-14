@@ -11,7 +11,7 @@
       <div id="nav_container" className="bg-purple-700 p-3 flex flex-col  sm:flex-row justify-around"> 
         {/* svg logo h1 rn */}
         <div className="flex flex-start flex-col sm:flex-row">
-        <img src="https://cdn2.iconfinder.com/data/icons/free-line-halloween-icons/24/Ghost-256.png"  className="w-1/6 p-1 bg-green-300 shadow-2xl rounded" alt="Logo"/>
+        <img src="https://cdn2.iconfinder.com/data/icons/free-line-halloween-icons/24/Ghost-256.png"  className="w-1/12 sm:w-1/6 p-1 bg-green-300 shadow-2xl rounded" alt="Logo"/>
         <h1 className="p-2  text-xl text-blue-400">S M F</h1>
 
         </div>
