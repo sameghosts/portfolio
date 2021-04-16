@@ -27,7 +27,7 @@ export default function About(){
     </div>
     {/* Buttons */}
     <div className="p-6 w-full flex flex-wrap justify-around content-around">
-      <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" target="_blank" href="https://drive.google.com/file/d/1eB3M68VzE4BYvn5z-OXIt5b3dwkhVfgh/view?usp=sharing">Resume</a>
+      <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" target="_blank" href="https://drive.google.com/file/d/19XQfTOwSJb0Qbw0L1dZS5wcU4Fp2_0rx/view?usp=sharing">Resume</a>
       <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" target="_blank" href="https://www.linkedin.com/in/seanmichael-feiner/">LinkedIn</a>
       <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" target="_blank" href="https://github.com/sameghosts">GitHub</a>
       <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" href="mailto:seanfeiner.brown@gmail.com">Email</a>
