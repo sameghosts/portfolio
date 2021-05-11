@@ -30,7 +30,7 @@ export default function About(){
       <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" target="_blank" href="https://drive.google.com/file/d/1f1mh2Jgczfy_o_WEpZ0nn3W5x5Qgbbcj/view?usp=sharing">Resume</a>
       <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" target="_blank" href="https://www.linkedin.com/in/seanmichael-feiner/">LinkedIn</a>
       <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" target="_blank" href="https://github.com/sameghosts">GitHub</a>
-      <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" href="mailto:seanfeiner.brown@gmail.com">Email</a>
+      <a className="text-xl inline-block m-1 p-4  bg-indigo-700 hover:bg-green-600 text-indigo-300  hover:text-green-200 shadow-2xl rounded transition ease-in duration-150" href="mailto:seanfeiner.dev@gmail.com">Email</a>
       </div>
       {/* Tech Stack images TODO: Add images */}
       <div className="flex flex-col flex-wrap font-mono">
