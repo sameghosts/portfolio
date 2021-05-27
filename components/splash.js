@@ -33,7 +33,7 @@ export default function Splash(){
         <br></br>
         I love information architecture, paradigms and framework ecosystems, and open-source development.
         <br/>
-        I am seeking an environment of learning with an opportunity focussed on growth. 
+        I am seeking an environment of learning with an opportunity focused on growth. 
         </h3>
         {/* other stuff ? */}
       </div>
